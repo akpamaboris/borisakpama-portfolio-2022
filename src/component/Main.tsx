@@ -1,7 +1,7 @@
 import SmallCard from "./SmallCard";
 import ProjectCard from "./ProjectCard";
 import TagProjectCard from "./TagProjectCard";
-import { pathSoftware, pathDesign, pathReact } from "../constants/pathsvg";
+import { pathSoftware, pathReact } from "../constants/pathsvg";
 
 const Main = () => {
   return (
