@@ -1,28 +1,28 @@
 //import picture
-import BorisPict from "../ressources/images/boris-pict.jpg";
+import BorisPict from "../ressources/images/boris.jpg";
 
 const Header = () => {
   return (
     <div style={{ backgroundColor: "rgb(247, 250, 252)" }}>
       <div className="w-full" style={{ cursor: "auto" }}>
-        <div className="flex flex-col justify-center max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
+        <div className="flex flex-col justify-center max-w-xs p-5 mx-auto bg-white shadow-xl rounded-xl">
           <div className="">
             <img
-              className="w-32 mx-auto shadow-xl rounded-full"
+              className="w-32 mx-auto rounded-full shadow-xl"
               src={BorisPict}
               alt="Profile face"
             />
           </div>
-          <div className="text-center mt-5">
-            <p className="text-xl sm:text-2xl font-semibold text-gray-900">
+          <div className="mt-5 text-center">
+            <p className="text-xl font-semibold text-gray-900 sm:text-2xl">
               Boris Akpama
             </p>
-            <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto inline-block border-b-2">
-              FullStack Developer/Designer
+            <p className="inline-block w-auto px-5 pt-2 pb-4 text-xs text-gray-600 border-b-2 sm:text-base">
+              Frontend Developer
             </p>
-            <div className="flex align-center justify-center mt-4">
+            <div className="flex justify-center mt-4 align-center">
               <a
-                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-gray-800 hover:bg-gray-800 rounded-full hover:text-white transition-colors duration-300"
+                className="p-1 m-1 text-xl text-gray-800 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-gray-800 hover:text-white"
                 href="https://github.com/akpamaboris"
               >
                 <svg
@@ -39,7 +39,7 @@ const Header = () => {
                 <span className="sr-only">Github</span>
               </a>
               <a
-                className="text-xl m-1 p-1 sm:m-2 sm:p-2 text-pink-600 hover:bg-pink-600 rounded-full hover:text-white transition-colors duration-300"
+                className="p-1 m-1 text-xl text-pink-600 transition-colors duration-300 rounded-full sm:m-2 sm:p-2 hover:bg-pink-600 hover:text-white"
                 href="https://www.linkedin.com/in/borisakpama/"
               >
                 <svg
